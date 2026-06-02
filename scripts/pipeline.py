@@ -103,60 +103,71 @@ def gold(silver_data):
 
 # ── LLM: identifica dores com Groq ───────────────────────────────
 def analisar_com_llm(silver_data):
+    import os
+    import json
+    from groq import Groq
+
     api_key = os.getenv("GROQ_API_KEY")
+
     if not api_key:
         print("[LLM] GROQ_API_KEY não configurada — pulando análise")
         return []
 
-    from groq import Groq
     client = Groq(api_key=api_key)
 
-    # Pega só os registros relevantes (perguntas ou blockers)
-    relevantes = [r for r in silver_data if r["is_question"] or r["has_blocker"]][:20]
+    relevantes = [
+        r for r in silver_data
+        if r["is_question"] or r["has_blocker"]
+    ][:20]
+
     if not relevantes:
-        print("[LLM] Sem dados relevantes para analisar")
+        print("[LLM] Sem dados relevantes")
         return []
 
-    falas = "\n".join([f"[{r['speaker']}]: {r['text_clean']}" for r in relevantes])
+    falas = "\n".join([
+        f"[{r['speaker']}]: {r['text_clean']}"
+        for r in relevantes
+    ])
 
-    prompt = f"""Analise as falas abaixo de um time de tecnologia e identifique as dores.
-Responda APENAS com JSON válido, sem markdown, sem texto antes ou depois:
+    prompt = f"""
+Analise falas de um time de Dados & IA da área de Pessoas.
+
+Responda apenas JSON:
 {{
   "pains": [
     {{
-      "category": "infraestrutura|testes|deploy|arquitetura|processo|ferramentas|conhecimento_tecnico",
-      "description": "descrição clara e objetiva da dor",
+      "category": "dados|ia|dashboard|processo|infraestrutura",
+      "description": "descrição",
       "severity": "alta|media|baixa",
-      "speaker": "nome da pessoa (ou multiplas_pessoas)",
-      "suggested_topic": "tema específico de treinamento que resolveria essa dor"
+      "speaker": "nome ou multiplas_pessoas",
+      "suggested_topic": "tema"
     }}
-  ],
-  "summary": "resumo geral das principais dores do time"
+  ]
 }}
 
-Regras:
-- severity alta = bloqueia o trabalho completamente
-- severity media = atrapalha mas não bloqueia
-- severity baixa = dúvida pontual
-- suggested_topic deve ser específico (ex: "Configuração de liveness probe no Kubernetes")
 
-FALAS DO TIME:
-{falas}"""
+FALAS:
+{falas}
+"""
+
+    print(">>> USANDO MODELO NOVO <<<")
 
     resposta = client.chat.completions.create(
-        model="llama3-8b-8192",
+        model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=2000,
+        max_tokens=500,
     )
 
     texto = resposta.choices[0].message.content
+
     try:
         resultado = json.loads(texto)
         dores = resultado.get("pains", [])
         print(f"[LLM] {len(dores)} dores identificadas")
         return dores
-    except Exception as e:
-        print(f"[LLM] Erro ao parsear resposta: {e}")
+    except Exception:
+        print("[LLM] Erro ao parsear resposta")
+        print(texto)
         return []
 
 
