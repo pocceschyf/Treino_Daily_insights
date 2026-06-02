@@ -1,0 +1,282 @@
+{
+  "meetings": [
+    {
+      "meeting_id": "meeting_dia_0",
+      "subject": "Daily — Time de Dados & IA (Pessoas)",
+      "start_time": "2026-06-01T09:05:00Z",
+      "utterances": [
+        {
+          "speaker": "Octavio Campanha",
+          "text": "Atualizei a documentação do pipeline de dados de pessoas. O dashboard no Power BI não está atualizando os dados de movimentação de colaboradores. Tem alguma forma de otimizar consultas no Databricks?",
+          "timestamp": "2026-06-01T09:05:00Z"
+        },
+        {
+          "speaker": "Fellipe Pocceschy",
+          "text": "Ontem trabalhei na atualização do dashboard de headcount. Qual a melhor prática pra documentar dashboards?",
+          "timestamp": "2026-06-01T09:05:00Z"
+        },
+        {
+          "speaker": "Dayanne Oliveira",
+          "text": "Avancei na melhoria do modelo de previsão de turnover. Não consigo acessar o endpoint do nosso modelo de IA, está retornando erro de autenticação. Qual a melhor forma de atualizar dashboards automaticamente no Power BI?",
+          "timestamp": "2026-06-01T09:05:00Z"
+        },
+        {
+          "speaker": "Eduarda Lira",
+          "text": "Finalizei a ingestão dos dados de movimentação de colaboradores.",
+          "timestamp": "2026-06-01T09:05:00Z"
+        }
+      ],
+      "source": "teams_meeting"
+    },
+    {
+      "meeting_id": "meeting_dia_1",
+      "subject": "Daily — Time de Dados & IA (Pessoas)",
+      "start_time": "2026-05-31T09:05:00Z",
+      "utterances": [
+        {
+          "speaker": "Bruno Lopes",
+          "text": "Atualizei a documentação do pipeline de dados de pessoas. Estou com problema para versionar o modelo de previsão de turnover no MLflow.",
+          "timestamp": "2026-05-31T09:05:00Z"
+        },
+        {
+          "speaker": "Dayanne Oliveira",
+          "text": "Avancei na melhoria do modelo de previsão de turnover. O notebook de preparação de dados está muito lento pra rodar no Databricks.",
+          "timestamp": "2026-05-31T09:05:00Z"
+        },
+        {
+          "speaker": "Fellipe Pocceschy",
+          "text": "Avancei na melhoria do modelo de previsão de turnover.",
+          "timestamp": "2026-05-31T09:05:00Z"
+        },
+        {
+          "speaker": "Octavio Campanha",
+          "text": "Ontem trabalhei na atualização do dashboard de headcount. O pipeline de ingestão de dados de RH falhou e não chegou na camada silver. Como controlar custo de execução dos pipelines de dados?",
+          "timestamp": "2026-05-31T09:05:00Z"
+        }
+      ],
+      "source": "teams_meeting"
+    },
+    {
+      "meeting_id": "meeting_dia_2",
+      "subject": "Daily — Time de Dados & IA (Pessoas)",
+      "start_time": "2026-05-30T09:05:00Z",
+      "utterances": [
+        {
+          "speaker": "Fellipe Pocceschy",
+          "text": "Finalizei a ingestão dos dados de movimentação de colaboradores.",
+          "timestamp": "2026-05-30T09:05:00Z"
+        },
+        {
+          "speaker": "Octavio Campanha",
+          "text": "Atualizei a documentação do pipeline de dados de pessoas.",
+          "timestamp": "2026-05-30T09:05:00Z"
+        },
+        {
+          "speaker": "Bruno Lopes",
+          "text": "Revisei indicadores de desempenho do time no dashboard.",
+          "timestamp": "2026-05-30T09:05:00Z"
+        },
+        {
+          "speaker": "Dayanne Oliveira",
+          "text": "Revisei indicadores de desempenho do time no dashboard. Como controlar custo de execução dos pipelines de dados?",
+          "timestamp": "2026-05-30T09:05:00Z"
+        }
+      ],
+      "source": "teams_meeting"
+    },
+    {
+      "meeting_id": "meeting_dia_3",
+      "subject": "Daily — Time de Dados & IA (Pessoas)",
+      "start_time": "2026-05-29T09:05:00Z",
+      "utterances": [
+        {
+          "speaker": "Octavio Campanha",
+          "text": "Ontem trabalhei na atualização do dashboard de headcount.",
+          "timestamp": "2026-05-29T09:05:00Z"
+        },
+        {
+          "speaker": "Eduarda Lira",
+          "text": "Finalizei a ingestão dos dados de movimentação de colaboradores. Estou com problema para versionar o modelo de previsão de turnover no MLflow.",
+          "timestamp": "2026-05-29T09:05:00Z"
+        },
+        {
+          "speaker": "Dayanne Oliveira",
+          "text": "Ontem trabalhei na atualização do dashboard de headcount. Estou com problema para versionar o modelo de previsão de turnover no MLflow.",
+          "timestamp": "2026-05-29T09:05:00Z"
+        },
+        {
+          "speaker": "Fellipe Pocceschy",
+          "text": "Avancei na melhoria do modelo de previsão de turnover. Os dados de headcount estão inconsistentes entre os sistemas.",
+          "timestamp": "2026-05-29T09:05:00Z"
+        }
+      ],
+      "source": "teams_meeting"
+    },
+    {
+      "meeting_id": "meeting_dia_4",
+      "subject": "Daily — Time de Dados & IA (Pessoas)",
+      "start_time": "2026-05-28T09:05:00Z",
+      "utterances": [
+        {
+          "speaker": "Dayanne Oliveira",
+          "text": "Revisei indicadores de desempenho do time no dashboard. O notebook de preparação de dados está muito lento pra rodar no Databricks. Alguém sabe como versionar melhor modelos de IA no MLflow?",
+          "timestamp": "2026-05-28T09:05:00Z"
+        },
+        {
+          "speaker": "Bruno Lopes",
+          "text": "Ontem trabalhei na atualização do dashboard de headcount. Não entendi como agendar a atualização automática do relatório no Power BI.",
+          "timestamp": "2026-05-28T09:05:00Z"
+        },
+        {
+          "speaker": "Octavio Campanha",
+          "text": "Avancei na melhoria do modelo de previsão de turnover. Não entendi como agendar a atualização automática do relatório no Power BI.",
+          "timestamp": "2026-05-28T09:05:00Z"
+        },
+        {
+          "speaker": "Eduarda Lira",
+          "text": "Finalizei a ingestão dos dados de movimentação de colaboradores. Não consigo acessar o endpoint do nosso modelo de IA, está retornando erro de autenticação.",
+          "timestamp": "2026-05-28T09:05:00Z"
+        }
+      ],
+      "source": "teams_meeting"
+    },
+    {
+      "meeting_id": "meeting_dia_5",
+      "subject": "Daily — Time de Dados & IA (Pessoas)",
+      "start_time": "2026-05-27T09:05:00Z",
+      "utterances": [
+        {
+          "speaker": "Dayanne Oliveira",
+          "text": "Finalizei a ingestão dos dados de movimentação de colaboradores. Estou com dificuldade pra atualizar o dataset de pessoas no Databricks, tá dando conflito de schema. Tem como monitorar drift nos modelos de previsão de turnover?",
+          "timestamp": "2026-05-27T09:05:00Z"
+        },
+        {
+          "speaker": "Bruno Lopes",
+          "text": "Avancei na melhoria do modelo de previsão de turnover. Não entendi como agendar a atualização automática do relatório no Power BI.",
+          "timestamp": "2026-05-27T09:05:00Z"
+        },
+        {
+          "speaker": "Fellipe Pocceschy",
+          "text": "Finalizei a ingestão dos dados de movimentação de colaboradores. Estou com dificuldade pra atualizar o dataset de pessoas no Databricks, tá dando conflito de schema.",
+          "timestamp": "2026-05-27T09:05:00Z"
+        },
+        {
+          "speaker": "Eduarda Lira",
+          "text": "Avancei na melhoria do modelo de previsão de turnover. Como controlar custo de execução dos pipelines de dados?",
+          "timestamp": "2026-05-27T09:05:00Z"
+        }
+      ],
+      "source": "teams_meeting"
+    },
+    {
+      "meeting_id": "meeting_dia_6",
+      "subject": "Daily — Time de Dados & IA (Pessoas)",
+      "start_time": "2026-05-26T09:05:00Z",
+      "utterances": [
+        {
+          "speaker": "Eduarda Lira",
+          "text": "Ontem trabalhei na atualização do dashboard de headcount.",
+          "timestamp": "2026-05-26T09:05:00Z"
+        },
+        {
+          "speaker": "Bruno Lopes",
+          "text": "Finalizei a ingestão dos dados de movimentação de colaboradores. O pipeline de ingestão de dados de RH falhou e não chegou na camada silver.",
+          "timestamp": "2026-05-26T09:05:00Z"
+        },
+        {
+          "speaker": "Fellipe Pocceschy",
+          "text": "Avancei na melhoria do modelo de previsão de turnover. Os dados de headcount estão inconsistentes entre os sistemas. Qual a melhor prática pra documentar dashboards?",
+          "timestamp": "2026-05-26T09:05:00Z"
+        },
+        {
+          "speaker": "Dayanne Oliveira",
+          "text": "Ontem trabalhei na atualização do dashboard de headcount. Estou com problema para versionar o modelo de previsão de turnover no MLflow. Qual a melhor forma de atualizar dashboards automaticamente no Power BI?",
+          "timestamp": "2026-05-26T09:05:00Z"
+        }
+      ],
+      "source": "teams_meeting"
+    }
+  ],
+  "channel_messages": [
+    {
+      "message_id": "msg_000",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Bruno Lopes",
+      "text": "Alguém sabe como versionar melhor modelos de IA no MLflow?",
+      "timestamp": "2026-06-01T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_001",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Bruno Lopes",
+      "text": "Qual a melhor forma de atualizar dashboards automaticamente no Power BI?",
+      "timestamp": "2026-05-31T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_002",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Bruno Lopes",
+      "text": "Tem como monitorar drift nos modelos de previsão de turnover?",
+      "timestamp": "2026-05-30T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_003",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Bruno Lopes",
+      "text": "Como validar qualidade dos dados de pessoas antes de usar nos modelos?",
+      "timestamp": "2026-05-29T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_004",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Bruno Lopes",
+      "text": "Tem alguma forma de otimizar consultas no Databricks?",
+      "timestamp": "2026-05-28T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_005",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Dayanne Oliveira",
+      "text": "Como integrar um modelo de IA com uma API interna?",
+      "timestamp": "2026-05-27T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_006",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Eduarda Lira",
+      "text": "Como controlar custo de execução dos pipelines de dados?",
+      "timestamp": "2026-05-26T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_007",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Bruno Lopes",
+      "text": "Faz sentido aplicar cache para datasets de pessoas?",
+      "timestamp": "2026-05-25T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_008",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Dayanne Oliveira",
+      "text": "Qual a melhor prática pra documentar dashboards?",
+      "timestamp": "2026-05-24T21:18:42.069746",
+      "source": "teams_channel"
+    },
+    {
+      "message_id": "msg_009",
+      "channel_id": "canal_dados_pessoas_ia",
+      "speaker": "Fellipe Pocceschy",
+      "text": "Como garantir consistência entre bases diferentes de RH?",
+      "timestamp": "2026-05-23T21:18:42.069746",
+      "source": "teams_channel"
+    }
+  ]
+}
