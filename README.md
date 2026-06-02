@@ -14,7 +14,7 @@ Times de dados e tecnologia frequentemente enfrentam desafios na identificação
 - Gargalos em processos e ferramentas
 - Necessidades de capacitação
 
-Essas informações estão presentes nas dailies, porém de forma **não estruturada e difícil de escalar**.
+Essas informações estão presentes nas dailys, porém de forma **não estruturada e difícil de escalar**.
 
 O **Daily Insights AI** transforma essas interações em **insights acionáveis**, combinando engenharia de dados e inteligência artificial.
 
@@ -38,6 +38,7 @@ Automatizar a análise de interações do time para:
 - 🤖 Análise de dores com LLM
 - 🌐 API REST com FastAPI
 - 📊 Dashboard em React
+- Indicação de pequenos cursos para solucionar as dores e dificuldades (Futuro)
 
 ---
 
